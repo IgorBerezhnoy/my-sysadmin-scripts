@@ -4,7 +4,7 @@ USERNAME=$1
 
 echo "Запуск setup-скрипта..."
 
-mkdir "$USERNAME"
+mkdir -p "$USERNAME"
 echo "Директория $USERNAME создана"
 
 echo "echo Привет, $USERNAME!" > "$USERNAME/.bashrc"
